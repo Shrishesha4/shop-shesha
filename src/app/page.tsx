@@ -3,26 +3,26 @@ import { useState, useEffect, useMemo } from 'react';
 
 export default function Home() {
   const phrases = useMemo(() => [
-    "we're launching soon",
-    "exciting things await",
-    "something special coming",
-    "stay tuned for more",
-    "we're getting there",
-    "we're just a few steps away",
-    "we're getting closer",
-    "we're just a few more steps",
-    "almost ready to launch",
-    "the countdown begins",
-    "preparing something amazing",
-    "crafting the experience",
-    "fine-tuning the details",
-    "putting on finishing touches",
-    "magic in the making",
-    "building something unique",
-    "innovation in progress",
-    "excellence takes time",
-    "worth the wait",
-    "transformation underway"
+    "we're launching soon...",
+    "exciting things await...",
+    "something special coming...",
+    "stay tuned for more...",
+    "we're getting there...",
+    "we're just a few steps away...",
+    "we're getting closer...",
+    "we're just a few more steps...",
+    "almost ready to launch...",
+    "the countdown begins...",
+    "preparing something amazing...",
+    "crafting the experience...",
+    "fine-tuning the details...",
+    "putting on finishing touches...",
+    "magic in the making...",
+    "building something unique...",
+    "innovation in progress...",
+    "excellence takes time...",
+    "worth the wait...",
+    "transformation underway..."
   ], []); 
 
   const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
